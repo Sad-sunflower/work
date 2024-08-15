@@ -1,6 +1,0 @@
-- [概要](README.md)
-- [ダウンロード](download.md)
-- 多言語
-  - [:uk: English](/)
-  - [:cn: 简体中文](/zh-cn/)
-  - [:jp: 日本語](/jp/)

@@ -1,4 +1,0 @@
-- [Mac]
-    -  [Mac 证书导入步骤]
-- [Window]
-    -  [windows 证书导入步骤](certificate.md)
