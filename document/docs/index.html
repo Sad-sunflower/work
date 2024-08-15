@@ -12,23 +12,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      //name: '',
-      repo: '',
-      loadNavbar: true,
-      //coverpage: true,
-      loadSidebar: true,
-      //coverpage: ['/'],
+      loadNavbar: 'jp/_navbar.md',  
+      loadSidebar: 'jp/_sidebar.md', 
       auto2top: false,
-      //name: 'EC Designer',
-      //logo: 'https://www.e-cloudsoft.com/images/logo.png',
-      // search plugin
-      search: 'auto', // 默认值
-      //onlyCover: false,
-      //autoHeader: true,
-      //maxLevel: 3,
+      search: 'auto',
       el: '#app',
       relativePath: true,
-
+      basePath: '',  
+      homepage: 'jp/quickStart.md',
+      alias: {
+        '/jp/.*/_sidebar.md': '/jp/_sidebar.md',
+        '/jp/.*/_navbar.md': '/jp/_navbar.md',
+        '/zh-cn/.*/_sidebar.md': '/zh-cn/_sidebar.md',
+        '/zh-cn/.*/_navbar.md': '/zh-cn/_navbar.md',
+        '/en/.*/_sidebar.md': '/en/_sidebar.md',
+        '/en/.*/_navbar.md': '/en/_navbar.md'
+      },
     }
   </script>
   <!-- Docsify v4 -->
