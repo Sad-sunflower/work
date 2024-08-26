@@ -1,4 +1,0 @@
-- [Mac]
-    -  [Mac 証明書のインポート手順](mac-certificate.md)
-- [Window]
-    -  [Windows 証明書のインポート手順](certificate.md)
